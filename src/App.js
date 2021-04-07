@@ -1,9 +1,14 @@
 import './App.css';
+import Search from "./Search";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <main>
+        <div className="container">
+          <Search />
+        </div>
+      </main>
     </div>
   );
 }
