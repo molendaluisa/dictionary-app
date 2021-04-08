@@ -1,0 +1,16 @@
+@import "variables";
+@import "globals";
+
+.Synonyms p {
+  margin-bottom: 0;
+  font-weight: $bold;
+}
+.Synonyms ul {
+  list-style-type: none;
+  margin: 5px 0 0;
+  padding: 0;
+}
+.Synonyms li {
+  display: inline-block;
+  padding-right: 10px;
+}

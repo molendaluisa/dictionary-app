@@ -1,0 +1,29 @@
+@import "variables";
+@import "globals";
+
+.Search section {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.1);
+  margin: 20px 0;
+}
+.Search h1 {
+  font-size: 30px;
+  color: $fourth-color;
+}
+
+.Search input {
+  width: 100%;
+  padding: 6px 4px;
+  border: 1px solid $first-color;
+  border-radius: 4px;
+  color: $third-color;
+  font-size: 16px;
+}
+
+.Search input:focus {
+  outline: none;
+  border: 2px solid $third-color;
+  border-radius: 4px;
+}

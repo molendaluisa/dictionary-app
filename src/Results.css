@@ -25,9 +25,10 @@ a {
   color: #c24d2c;
 }
 
-.App {
-  padding: 60px 0 100px;
-  max-width: 960px;
-  margin: 0 auto;
+.Results h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #283c63;
+  margin-top: 0;
 }
-/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=Results.css.map */

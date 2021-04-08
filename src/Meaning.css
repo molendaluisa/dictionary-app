@@ -25,9 +25,13 @@ a {
   color: #c24d2c;
 }
 
-.App {
-  padding: 60px 0 100px;
-  max-width: 960px;
-  margin: 0 auto;
+.Meaning h3 {
+  color: #283c63;
+  font-size: 24px;
 }
-/*# sourceMappingURL=App.css.map */
+
+.Meaning .example {
+  font-style: italic;
+  font-size: 18px;
+}
+/*# sourceMappingURL=Meaning.css.map */

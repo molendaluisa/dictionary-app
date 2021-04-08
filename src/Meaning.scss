@@ -1,0 +1,11 @@
+@import "variables";
+@import "globals";
+
+.Meaning h3 {
+  color: $third-color;
+  font-size: 24px;
+}
+.Meaning .example {
+  font-style: $italic;
+  font-size: 18px;
+}
