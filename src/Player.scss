@@ -1,0 +1,32 @@
+@import "variables";
+@import "globals";
+
+.Player {
+  display: inline;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.Player button {
+  border-radius: 100%;
+  background-color: white;
+  display: inline;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $second-color;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid $second-color;
+  padding: 0.375rem 0.75rem;
+  width: 45px;
+  height: 45px;
+  font-size: 1rem;
+  transition: all 150ms ease-in-out;
+}
+
+.Player button:hover {
+  background-color: $second-color;
+  color: white;
+}

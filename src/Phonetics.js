@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import Player from "./Player";
+import "./Phonetics.css";
 
 export default function Phonetics(props) {
   if (props.phonetics) {
     return (
       <div className="Phonetics">
-        <a href={props.phonetics.audio} target="_blank">Listen</a>
-        {props.phonetics.text}
+        <Player audio={props.phonetics.audio} />
+        <div className="text">{props.phonetics.text}</div>
       </div>
     );
   } else {
