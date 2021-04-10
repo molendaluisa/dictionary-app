@@ -23,7 +23,7 @@ export default function Search() {
   function getAPI() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
-    let imgUrl = `https://api.unsplash.com/search/photos?page=1&query=${keyword}&client_id=3diyqkI801kLfrBphD2dM1wn1of4asSjwQLv_wfK1n0`;
+    let imgUrl = `https://api.unsplash.com/search/photos?page=1&query=${keyword}&client_id=3diyqkI801kLfrBphD2dM1wn1of4asSjwQLv_wfK1n0&per_page=9&orientation=landscape`;
     axios.get(imgUrl).then(handleImages)
   }
 
