@@ -27,3 +27,12 @@
   border: 2px solid $third-color;
   border-radius: 4px;
 }
+
+@media (max-width: 375px) {
+  .Search h1 {
+    font-size: 20px;
+  }
+  .Search input {
+    font-size: 14px;
+  }
+}

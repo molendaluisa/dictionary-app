@@ -32,7 +32,8 @@ a {
   overflow: hidden;
 }
 
-.Images .col-4 {
+.Images .col-md-4,
+.Images .col-12 {
   margin: 10px 0;
 }
 /*# sourceMappingURL=Images.css.map */

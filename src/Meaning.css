@@ -34,4 +34,19 @@ a {
   font-style: italic;
   font-size: 18px;
 }
+
+@media (max-width: 375px) {
+  .Meaning h3 {
+    font-size: 18px;
+  }
+  .Meaning p {
+    font-size: 14px;
+  }
+  .Meaning .example {
+    font-size: 14px;
+  }
+  .Meaning li {
+    font-size: 14px;
+  }
+}
 /*# sourceMappingURL=Meaning.css.map */
