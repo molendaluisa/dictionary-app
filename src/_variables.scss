@@ -10,8 +10,9 @@ $bold: 700;
 //style
 $italic: italic;
 
-//colors
-$first-color: #e5e5e5;
-$second-color: #c24d2c;
-$third-color: #283c63;
-$fourth-color: #1a2639;
+:root {
+  --first-color: #e5e5e5;
+  --second-color: #c24d2c;
+  --third-color: #283c63;
+  --fourth-color: #1a2639;
+}

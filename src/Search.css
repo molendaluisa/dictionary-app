@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,100&display=swap");
+:root {
+  --first-color: #e5e5e5;
+  --second-color: #c24d2c;
+  --third-color: #283c63;
+  --fourth-color: #1a2639;
+}
+
 html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
@@ -17,12 +24,12 @@ body {
   padding: 0;
   line-height: 1.3;
   font-family: "Lato", sans-serif;
-  background-color: #e5e5e5;
-  color: #1a2639;
+  background-color: var(--first-color);
+  color: var(--fourth-color);
 }
 
 a {
-  color: #c24d2c;
+  color: var(--second-color);
 }
 
 .Search section {
@@ -36,21 +43,21 @@ a {
 
 .Search h1 {
   font-size: 30px;
-  color: #1a2639;
+  color: var(--fourth-color);
 }
 
 .Search input {
   width: 100%;
   padding: 6px 4px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--first-color);
   border-radius: 4px;
-  color: #283c63;
+  color: var(--third-color);
   font-size: 16px;
 }
 
 .Search input:focus {
   outline: none;
-  border: 2px solid #283c63;
+  border: 2px solid var(--third-color);
   border-radius: 4px;
 }
 

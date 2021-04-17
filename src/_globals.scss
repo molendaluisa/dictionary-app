@@ -13,9 +13,9 @@ body {
   padding: 0;
   line-height: 1.3;
   font-family: $lato;
-  background-color: $first-color;
-  color: $fourth-color;
+  background-color: var(--first-color);
+  color: var(--fourth-color);
 }
 a {
-  color: $second-color;
+  color: var(--second-color);
 }

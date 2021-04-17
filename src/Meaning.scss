@@ -2,7 +2,7 @@
 @import "globals";
 
 .Meaning h3 {
-  color: $third-color;
+  color: var(--third-color);
   font-size: 24px;
 }
 .Meaning .example {
