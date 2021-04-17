@@ -4,19 +4,23 @@ import Search from "./Search";
 import Toggle from "./Toggle";
 
 const lightTheme = {
+  '--background': '#ffffff',
   '--first-color': '#e5e5e5',
   '--second-color': '#c24d2c',
   '--third-color': '#283c63',
   '--fourth-color': '#1a2639',
   '--fifth-color': '#ffffff',
+  '--shadow': 'rgba(0, 0, 0, 0.1)',
 };
 
 const darkTheme = {
+  '--background': '#eeeeee',
   '--first-color': '#303846',
   '--second-color': '#1a2639',
   '--third-color': '#c24d2c',
   '--fourth-color': '#1a2639',
   '--fifth-color': '#f6f6f6',
+  '--shadow': 'rgba(180, 180, 180, 0.4)',
 };
 
 function App() {

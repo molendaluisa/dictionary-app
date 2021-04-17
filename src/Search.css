@@ -33,11 +33,11 @@ a {
 }
 
 .Search section {
-  background: white;
+  background: var(--background);
   padding: 30px;
   border-radius: 10px;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px var(--shadow);
+          box-shadow: 0 5px 10px var(--shadow);
   margin: 20px 0;
 }
 
@@ -53,6 +53,7 @@ a {
   border-radius: 4px;
   color: var(--third-color);
   font-size: 16px;
+  background-color: var(--background);
 }
 
 .Search input:focus {
